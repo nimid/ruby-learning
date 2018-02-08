@@ -24,10 +24,6 @@ end
 
 class DuckTypingTest < Test::Unit::TestCase
   def test_duck_typing
-    a = A.new
-    b = B.new
-    c = C.new
-
     assert_equal('Class A', test(A.new))
     assert_equal('Class B', test(B.new))
     assert_raise ArgumentError do
