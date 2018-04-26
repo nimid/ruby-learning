@@ -1,0 +1,5 @@
+foo=bar
+double_quote="test_double_quote"
+single_quote='test-single-quote'
+number=1
+url=https://abc.def.ghi
